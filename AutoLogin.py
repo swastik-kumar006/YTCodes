@@ -1,3 +1,7 @@
+# Code Is UPdsated Daily IF ID And Herf IS changed !!
+# Now No Need To Install Sele
+# It Would We Automatically Instaled
+# Subscribe Karna Warna Terko TikToker Bulaunga!!
 from os import system as o
 o('pip install selenium')
 from selenium import webdriver
@@ -21,15 +25,17 @@ banner()
 login = input("Enter in your username: ")
 p = getpass("Enter your password: ")
 
+# Make Sure To Put THe Proper PLace fOR cHROMEdRIVER
+# Replace All "\"with "\\" Or Else U will Face Error
 driver = webdriver.Chrome("G:\\Downloads\\chromedriver_win32\\chromedriver.exe")
 driver.get("https://en-gb.facebook.com/login/")
 
-username_textbox = driver.find_element_by_id("email")
-username_textbox.send_keys(login)
+username = driver.find_element_by_id("email")
+username.send_keys(login)
 
-password_textbox = driver.find_element_by_id("pass")
-password_textbox.send_keys(p)
+password = driver.find_element_by_id("pass")
+password.send_keys(p)
 
-login_button = driver.find_element_by_id("loginbutton")
-login_button.submit()
+submit = driver.find_element_by_id("loginbutton")
+submit.submit()
 print('DONE!!')
