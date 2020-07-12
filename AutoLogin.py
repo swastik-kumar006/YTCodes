@@ -1,13 +1,11 @@
-# Code Is UPdsated Daily IF ID And Herf IS changed !!
-# Now No Need To Install Sele
-# It Would We Automatically Instaled
-# Subscribe Karna Warna Terko TikToker Bulaunga!!
 from os import system as o
+import random
 o('pip install selenium')
+from random import randint as r
 from selenium import webdriver
 from getpass import getpass
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
-W='\033[0m'
+W ='\033[0m'
 def banner():
     x = r(0, 99999)
     y = str(x)
@@ -39,3 +37,4 @@ password.send_keys(p)
 submit = driver.find_element_by_id("loginbutton")
 submit.submit()
 print('DONE!!')
+
