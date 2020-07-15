@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 CHROME_DRIVER = './'
 i = 1
 chrome_options = Options()
-prefs = {"download.default_directory": "./"}
+prefs = {"download.default_directory": "./chromedriver.exe"}
 chrome_options.add_argument("--window-size=1927x1083")
 chrome_options.add_experimental_option("prefs", prefs)
 driver = webdriver.Chrome(executable_path=CHROME_DRIVER)
