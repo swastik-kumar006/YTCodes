@@ -1,1 +1,1 @@
-userbot: bash ass.sh
+userbot: python c.py
