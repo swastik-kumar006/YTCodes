@@ -1,7 +1,7 @@
 from time import sleep as s
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-CHROME_DRIVER = './Config/chdriver/'
+CHROME_DRIVER = './'
 i = 1
 chrome_options = Options()
 prefs = {"download.default_directory": "./"}
