@@ -1,1 +1,1 @@
-web: bash ass.sh
+userbot: bash ass.sh
