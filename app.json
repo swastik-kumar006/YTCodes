@@ -12,12 +12,13 @@
       "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
+      "description": "Leave",
       "value": "./Config/DOWNLOADS/"
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username.",
-      "value": "🇮"
+      "description": "Enter The Ammount Of Views U Want,
+      "value": "",
+      "required": true
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -40,7 +41,7 @@
       "required": true
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally",
+      "description": "Get this value by running Repl locally",
       "value": "",
       "required": true
     },
@@ -75,12 +76,12 @@
       "required": true
     },
     "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
+      "description": "For Enablel. Leave as it is. ",
       "value": "/app/.apt/usr/bin/google-chrome",
       "required": true
     },
     "CHROME_DRIVER": {
-      "description": "For Carbon.py. Leave as it is. ",
+      "description": "For Enablel. Leave as it is. ",
       "value": "/app/.chromedriver/bin/chromedriver",
       "required": true
     },
@@ -125,9 +126,6 @@
     },
     {
       "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
-    },
-    {
-      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
     },
     {
       "url": "heroku/python"
