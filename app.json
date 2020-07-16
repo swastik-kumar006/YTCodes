@@ -12,37 +12,33 @@
       "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Leave",
-      "value": "./Config/DOWNLOADS/"
+      "description": "Where downloaded files will go.",
+      "value": "./userbot/DOWNLOADS/",
+      "required": false
     },
     "ALIVE_NAME": {
-      "description": "Enter The Ammount Of Views U Want,
-      "value": "",
+      "description": "Fill your Full name or Username.",
+      "value": "[#UR-NAME#](t.me/#UR-USERBAME#)🇮🇳"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running Repl locally",
-      "value": "",
-      "required": true
+      "description": "Get this value by running python3 telesetup.py locally",
+      "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
       "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
@@ -61,48 +57,44 @@
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "HEROKU_APP_NAME": {
       "description": "The Value of App Name you filled in right on top.Required for updater to work.",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot.Worth it. Get it.",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "CHROME_BIN": {
-      "description": "For Enablel. Leave as it is. ",
+      "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.apt/usr/bin/google-chrome",
-      "required": true
+      "required": false
     },
     "CHROME_DRIVER": {
-      "description": "For Enablel. Leave as it is. ",
+      "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.chromedriver/bin/chromedriver",
-      "required": true
+      "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
-      "value": "",
-      "required": true
+      "value": ""
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
       "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
-      "value": "Sed",
-      "required": true
+      "value": "",
+      "required": false
     },
     "TZ": {
       "description": "Required for Correct Time on autopic",
       "value": "Asia/Kolkata",
-      "required": true
+      "required": false
     },
     "FED": {
       "description": "UR FEDRATION FROM ROSE",
       "value": "",
-      "required": true
+      "required": false
     }
   },
   "addons": [
@@ -125,6 +117,9 @@
     },
     {
       "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    },
+    {
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
     },
     {
       "url": "heroku/python"
