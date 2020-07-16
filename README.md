@@ -1,9 +1,7 @@
-# YTCodes
-
-p align="center">
 <img src="logo.jpg" alt="indian Bot">
-
 A Base For My YT Channel !!
+
+# YTCodes
 
 ## FORK AT YOUR OWN RISK !
 ## Don't Forget To Give A Star ⭐
