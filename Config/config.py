@@ -12,5 +12,5 @@ while True:
     print(f"Sent Views : {i}")
     driver.get('https://www.youtube.com/watch?v=qUlHZt5kYLI=3s')
     driver.quit
-    s(7)
+    s(3)
     i += 1
