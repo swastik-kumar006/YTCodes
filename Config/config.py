@@ -10,6 +10,6 @@ chrome_options.add_experimental_option("prefs", prefs)
 driver = webdriver.Chrome(executable_path=CHROME_DRIVER)
 while i <= 500000:
     print(f"Sent Views : {i}")
-    driver.get('https://youtu.be/qUlHZt5kYLI')
+    driver.get('https://www.youtube.com/watch?v=qUlHZt5kYLI=3s')
     s(250)
     i += 1
