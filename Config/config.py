@@ -7,9 +7,10 @@ chrome_options = Options()
 prefs = {"download.default_directory": "./chromedriver.exe"}
 chrome_options.add_argument("--window-size=1927x1083")
 chrome_options.add_experimental_option("prefs", prefs)
-driver = webdriver.Chrome(executable_path=CHROME_DRIVER)
-while i <= 500000:
+while True:
+    driver = webdriver.Chrome(executable_path=CHROME_DRIVER)
     print(f"Sent Views : {i}")
     driver.get('https://www.youtube.com/watch?v=qUlHZt5kYLI=3s')
-    s(250)
+    driver.quit
+    s(7)
     i += 1
