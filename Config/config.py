@@ -11,6 +11,6 @@ while True:
     driver = webdriver.Chrome(executable_path=CHROME_DRIVER)
     print(f"Sent Views : {i}")
     driver.get('https://www.youtube.com/watch?v=qUlHZt5kYLI=3s')
-    driver.quit
+    driver.quit()
     s(3)
     i += 1
